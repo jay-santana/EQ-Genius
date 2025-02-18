@@ -28,6 +28,15 @@ html, body {
   overflow: hidden;
 }
 
+.h5p-baq-intro-page {
+  background-image: url(../images/math-background-01.jpg) !important;
+  /* background: #ff69b4 !important; */
+  background-size:cover;
+  background-position: center; 
+  background-repeat: no-repeat;
+  will-change: background-image;
+}
+
 .h5p-baq .h5p-baq-intro-page-title * {
   color: #014876 !important;
   font-weight: bold;
@@ -39,15 +48,6 @@ html, body {
   justify-content: center;
   align-items: center;
   padding: 0.4em;
-}
-
-.h5p-baq-intro-page {
-  background-image: url(../images/math-background-01.jpg) !important;
-  /* background: #ff69b4 !important; */
-  background-size:cover;
-  background-position: center; 
-  background-repeat: no-repeat;
-  will-change: background-image;
 }
 
 .h5p-baq-intro-page::after {
