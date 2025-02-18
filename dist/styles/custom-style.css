@@ -47,6 +47,7 @@ html, body {
   background-size:cover;
   background-position: center; 
   background-repeat: no-repeat;
+  will-change: background-image;
 }
 
 .h5p-baq-intro-page::after {
